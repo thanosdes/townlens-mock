@@ -12,6 +12,7 @@
         "min": "2022-01-01T00:00:00Z",
         "max": "2023-12-31T23:59:59Z"
       }
-    }
+    },
+    "eventList": { "belongsTo": "EventList" }
   }
 }
