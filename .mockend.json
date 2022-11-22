@@ -1,7 +1,9 @@
 {
-  "EventList": {
+  "List": {
     "category": { "string": {} },
-    "events": { "hasMany": "Event" }
+    "events": { 
+      "hasMany": "Event" 
+    }
   },
   "Event": {
     "id": { "string": {} },
@@ -13,6 +15,8 @@
         "max": "2023-12-31T23:59:59Z"
       }
     },
-    "eventList": { "belongsTo": "EventList" }
+    "list": { 
+      "belongsTo": "List" 
+    }
   }
 }
