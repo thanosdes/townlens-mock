@@ -1,9 +1,11 @@
 {
   "Event": {
     "id": { "string": {} },
-    "title": { "string": {} },
+    "artist": { "string": {} },
     "image": { "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/270" },
-    "date":  {
+    "type": { "string": {} },
+    "venue": { "string": {} },
+    "time":  {
       "dateTime": {
         "min": "2022-01-01T00:00:00Z",
         "max": "2023-12-31T23:59:59Z"
