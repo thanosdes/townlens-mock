@@ -1,5 +1,5 @@
 {
-  "New": {
+  "Event": {
     "id": { "string": {} },
     "title": { "string": {} },
     "image": { "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/270" },
@@ -9,27 +9,5 @@
         "max": "2023-12-31T23:59:59Z"
       }
     },
-  },
-  "Recommended": {
-    "id": { "string": {} },
-    "title": { "string": {} },
-    "image": { "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/270" },
-    "date":  {
-      "dateTime": {
-        "min": "2022-01-01T00:00:00Z",
-        "max": "2023-12-31T23:59:59Z"
-      }
-    }
-  },
-  "Nearyou": {
-    "id": { "string": {} },
-    "title": { "string": {} },
-    "image": { "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/270" },
-    "date":  {
-      "dateTime": {
-        "min": "2022-01-01T00:00:00Z",
-        "max": "2023-12-31T23:59:59Z"
-      }
-    }
   }
 }
