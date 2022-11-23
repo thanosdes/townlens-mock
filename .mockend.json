@@ -1,11 +1,5 @@
 {
-  "List": {
-    "category": { "string": {} },
-    "events": { 
-      "hasMany": "Event" 
-    }
-  },
-  "Event": {
+  "New": {
     "id": { "string": {} },
     "title": { "string": {} },
     "image": { "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/270" },
@@ -15,8 +9,27 @@
         "max": "2023-12-31T23:59:59Z"
       }
     },
-    "list": { 
-      "belongsTo": "List" 
-    }
+  },
+  "Recommended": {
+    "id": { "string": {} },
+    "title": { "string": {} },
+    "image": { "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/270" },
+    "date":  {
+      "dateTime": {
+        "min": "2022-01-01T00:00:00Z",
+        "max": "2023-12-31T23:59:59Z"
+      }
+    },
+  }
+  "NearYou": {
+    "id": { "string": {} },
+    "title": { "string": {} },
+    "image": { "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/270" },
+    "date":  {
+      "dateTime": {
+        "min": "2022-01-01T00:00:00Z",
+        "max": "2023-12-31T23:59:59Z"
+      }
+    },
   }
 }
